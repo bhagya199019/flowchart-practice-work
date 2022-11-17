@@ -1,0 +1,250 @@
+  1) Pseudocode to print the "bitLabs" message 10 times.
+Begin
+Numeric i, String Bitlabs;
+Accept i
+i=1;
+if(i<=10) {
+Display "Bitlabs";
+i=i++;
+}
+else 
+End
+
+
+2) pseudocode to print 1-10 numbers
+Begin
+Numeric i
+Initialize i=1;
+Accept i;
+If (i <= 10) {
+Display i;
+Increment i value;
+}
+Else
+End;
+
+3.pseudocode to print 10-1 numbers
+Begin
+Numeric i;
+Initialize i=10;
+If(i>0) {
+Display I;
+Decrement I value;
+}
+Else 
+     End;
+
+4)pseudocode to print even numbers between 1-10 numbers
+Begin
+Numeric I;
+Initialize I=1;
+If(I<=10)
+ {
+   If(I%2==0)
+ {
+Display I;
+}
+Increment I value;
+}
+Else
+end
+
+5)pseudocode to print odd numbers between 1-10 numbers
+Begin
+Numeric I;
+Initialize I=1;
+If(I<=10) 
+{
+If(I%2!=0)
+ {
+Display I;
+}
+Increment I value;
+}
+else
+end;
+
+6)Pseudocode to accept start and stop values and print between values.
+     Begin
+Numeric start, stop;
+Accept start, stop values;
+If(start<stop) 
+{
+Display start value;
+Increment Start value;
+}
+Elseif (start>stop)
+ {
+Display start value
+Decrement Start value;
+}
+Else {
+Display “start and stop values are equal”;
+}
+End
+
+7)Pseudocode to input the age of the voter and check whether he is eligible to vote based on the age older than 18 years.
+Begin 
+Numeric num1
+Accept num1 value
+If(num1>=18)
+{
+Display “eligible for vote”
+}
+Else
+{
+Display “not eligible for vote”
+}
+End
+
+8)Pseudocode to Check your Admission possibility to your dream College based on your academic marks.
+Begin
+Numeric marks;
+Accept marks value;
+If(marks>=60)
+{
+Display “admission possible”
+}
+Else{
+Display “admission not possible”
+}
+End;
+
+9)Pseudocode to find the sum and average of three numbers.
+Begin
+Numeric num1,num2,num3,sum,average;
+Accept num1,num2,num3 values;
+sum=num1+num2+num3;
+Average=sum/3;
+Display sum;
+Display Average;
+End;
+
+10)Pseudocode to find biggest of three numbers
+
+Begin
+Numeric num1,num2,num3,;
+accept num1,num2,num3;
+if(num1>num2 && num1>num2)
+{
+display "num1 is big"
+}
+else if(num2>num3)
+{
+display "num2 is big"
+}
+else
+display "num3 is big"
+end
+
+11)pseudocode for winning chances of team
+
+Begin
+numeric a,b;
+accept a,b value;
+if(a>b)
+{
+display " a team wins";
+}
+else
+{
+display "b team wins";
+}
+end
+
+
+12)pseudocode to find the gross sal
+ 
+Begin
+numeric basicsal,hra,da,grosssal;
+accept basicsal,hra,da,grosssal values;
+if(basicsal<=10000)
+{
+hra=(80*basicsal)/100;
+      da=(76*basic sal/100);
+}
+elseif(basic<=20000)
+{
+ hra=(83*basicsal)/100;
+      da=(78*basic/100);
+}
+else
+{
+hra=(89*basicsal)/100;
+      da=(86*basic/100);
+}
+grosssal=hra+da+basicsal;
+display "gross sal";
+end
+
+
+13)pseudocode to login to facebook
+
+Begin
+go to www.facebook.com;
+select sign in;
+enter emailid;
+enter password;
+if(emailid && password correct)
+display "user is valid";
+}
+else
+{
+display "user is invalid"
+}
+end
+
+14)pseudocode to purchase mobile in amazon
+
+Begin
+go to www.amazon.com
+if(new to amazon)
+{
+enter firstname ;
+enter lastname;
+enter phone number;
+enter password;
+enter otp;
+}
+else
+{
+enter mobile number;
+enter otp;
+}
+if(otp is valid)
+{
+enter mobilephone name in search bar;
+select mobilephone;
+enter or select location address;
+select buy now;
+select payment method;
+select place your order and pay;
+display order confirmed;
+}
+else "enter valid otp";
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
