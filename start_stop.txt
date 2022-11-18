@@ -1,0 +1,26 @@
+import java.util.Scanner; 
+class startstop{
+  public static void main(String args[]){
+    int start=100;
+    int stop=200;
+    if(start<stop)
+    {
+for(int i=start;i<stop;i++)
+  {
+    System.out.println(+i);
+  }
+  }
+    else if(start>stop)
+    {
+      for(int i=start;i>stop;i--)
+  {
+    System.out.println(+i);
+  }
+      }
+    else
+    {
+      System.out.println("start stop are equal");
+    }
+      
+      } 
+}
