@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class electricitybill{
+  public static void main(String args[]){
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter the unit value");
+    int unit=s.nextInt();
+    double bill=0;
+    if(unit<=50)
+    {
+      bill=unit*0.50;
+    }
+  else if(unit<=150)
+  {
+    bill= 50*0.50+(unit-50)*0.75;
+  }
+    else if(unit<=250)
+    {
+      bill= 50*0.50+100*0.75+(unit-150)*1.25;
+    }
+    else if(unit>250)
+    {
+      bill=50*0.50+100*0.75+100*1.25+(unit-250)*2.30;   
+    }
+    System.out.println("the bill is:" +bill);
+  }
+}

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+class atmcashdraw {
+  public static void main(String args[]) {
+
+    Scanner s = new Scanner(System.in);
+    int amount = 0;
+    System.out.println("Enter amount");
+    amount = s.nextInt();
+    int one = 0, two = 0, five = 0; // 7800
+
+    if (amount % 100 == 0) {
+
+      if (amount >= 500) {
+        five = amount / 500; // 15
+        amount = amount - (five * 500); // 300
+        System.out.println("500 rupees notes are : " + five);
+      }
+      if (amount >= 200) {
+        two = amount / 200;
+        amount = amount - (two * 200);
+        System.out.println("200 rupees notes are : " + two);
+      }
+      if (amount >= 100) {
+        one = amount / 100;
+        System.out.println("100 rupees notes are : " + one);
+      }
+    } else {
+      System.out.println("Invalid amount, please enter multiples of 100 only");
+    }
+
+  }
+}
