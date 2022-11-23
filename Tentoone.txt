@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Tentoone{
+public class static void main(string args[])
+  {
+    int num=10;
+    while(num>=1){
+      System.out.println(+num);
+      num--;
+    }
+  }
+}

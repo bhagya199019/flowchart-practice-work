@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Evenoddsum{
+  public static void main(String args[]){
+    Scanner s=new Scanner(System.in);
+    System.out.println("enter the number");
+    int num=s.nextInt();
+    int evsum=0,odsum=0,rem=0;
+    while(num>0)
+      {
+        rem=num%10;
+         if(rem%2==0){
+          evsum=evsum+rem;
+        }
+         else{
+          odsum=odsum+rem;
+        }
+         num=num/10;
+        }
+   System.out.println("the even sum is:" +evsum);
+    System.out.println("the odd sumis:"+odsum);
+     }
+}
