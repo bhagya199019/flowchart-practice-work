@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Noofevenoddigit{
+  public static void main(String args[]){
+     Scanner s=new Scanner(System.in);
+    System.out.println("enter the number");
+    int n=s.nextInt();
+    int evcount=0,oddcount=0;
+     for(int rem=0;n!=0;n=n/10){
+      rem=n%10;
+      if(rem%2==0){
+        evcount++;
+      }
+      else{
+      oddcount++;
+      }
+    }
+    System.out.println("Total no of even digits in a number is:"+evcount);
+      System.out.println("Total no of odd digits in a number is:"+oddcount);
+  }
+}

@@ -1,18 +1,15 @@
 import java.util.Scanner;
-public class Noofdigit{
+public class Revofnum{
   public static void main(String args[]){
      Scanner s=new Scanner(System.in);
     System.out.println("enter the number");
     int n=s.nextInt();
-    
-    int count=0;
-    
-    
-    for( count=0;n!=0;n=n/10){
+    int rev=0;
+    for(int rem=0;n!=0;n=n/10){
+      rem=n%10;
+      rev=rev*10+rem;
       
-      count++;
-      
-    }
-    System.out.println("Total no of digits in a number is:"+count);
+  }
+    System.out.println("reverse of the number is:"+rev);
   }
 }

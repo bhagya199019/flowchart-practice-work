@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Sumofevenoddigit{
+  public static void main(String args[]){
+     Scanner s=new Scanner(System.in);
+    System.out.println("enter the number");
+    int n=s.nextInt();
+    
+  int evsum=0,rem=0,oddsum=0;
+    
+  for(;n!=0;n=n/10){
+      rem=n%10;
+      if(rem%2==0){
+        evsum=evsum+rem;
+        
+      }
+      else{
+        oddsum=oddsum+rem;
+      }
+     
+      
+    }
+    System.out.println("sum of even digits in a number is:"+evsum);
+     System.out.println("sum of odd digits in a number is:"+oddsum);
+  }
+}
